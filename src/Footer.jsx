@@ -4,9 +4,10 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <div>
+
         <img className="div-img" src="image/imgFooter.png" alt="" />
-      </div>
+        <img className="div-img" src="image/eu.jpeg" alt="" />
+
     </footer>
   );
 }

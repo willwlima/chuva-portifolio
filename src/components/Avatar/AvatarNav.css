@@ -66,9 +66,6 @@
 
 @media (max-width: 500px) {
   .avatar {
-    left: 25%;
-  }
-  .avatar-number-avatar {
-    left: 3.1%;
+    left: 280px;
   }
 }
