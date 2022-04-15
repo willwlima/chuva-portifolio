@@ -591,4 +591,10 @@
     height: 230px;
     margin-left: 36px;
   }
+  .card-topico-like-text {
+    margin-top: 17px;
+  }
+  .card-topico-like-resposta {
+    margin-top: 17px;
+  }
 }

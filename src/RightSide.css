@@ -135,7 +135,8 @@
 
 @media (max-width: 500px) {
   .right-side-button {
-    top: 70%;
+    top: 65%;
     left: 15%;
+
   }
 }
