@@ -5,6 +5,7 @@ import "./AvatarNav.css";
 function AvatarNav() {
   return (
     <div className="avatar">
+      
       <p className="avatar-text-one">Bem vindo</p>
       <p className="avatar-text-email">alguem12@galoasciente.com</p>
       <Avatar alt="Remy Sharp" src="image/eu.jpeg" />
