@@ -504,13 +504,15 @@
   }
   .resumo-box {
     width: 365px;
-    margin-top: 650px;
+    margin-top: 700px;
+
   }
   .description {
     width: 320px;
   }
   .discussoes-box {
     width: 365px;
+    height: 765px ;
     margin-top: 350px;
   }
   .discussoes-text-top {
