@@ -1,0 +1,141 @@
+.right-side-button {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  left: 76%;
+  top: 17%;
+  background: #ed7839 !important;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.right-side-button .one {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.right-side-button .two {
+  width: 43px;
+  height: 31px;
+  left: 85%;
+  top: -120%;
+}
+
+.right-side-button .three {
+  width: 43px;
+  height: 31px;
+  left: 147%;
+  top: -220%;
+  text-transform: lowercase;
+}
+.right-side-button .three p {
+  width: 25px;
+
+  background: #fff;
+  border-radius: 26px;
+  color: #ed7839;
+}
+
+.color-icon {
+  color: #fff;
+}
+
+.color-icon-starIcon {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.text-description-top {
+  position: absolute;
+  width: 270px;
+  height: 25px;
+  left: 0px;
+  right: 0px;
+  top: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ed7839;
+}
+
+.text-detail {
+  position: absolute;
+  width: 272px;
+  height: 45px;
+  text-align: left;
+  background: #fdf1eb;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 3px 3px 0px 0px;
+}
+.text-detail p {
+  position: relative;
+  width: 212px;
+  bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-indent: 20px;
+}
+
+.box-text {
+  position: absolute;
+  width: 272px;
+  height: 445px;
+  top: 43px;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.box-text-text {
+  width: 212px;
+  height: 364px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-indent: 0px !important;
+  font-family: "Quicksand";
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #5c5c5c;
+}
+
+.text-info {
+  color: #5c5c5cc2;
+  margin-top: -75px !important;
+  font-size: 11px !important;
+  margin-top: -45px !important;
+}
+.retangle-box {
+  position: absolute;
+  width: 3px;
+  height: 200px;
+  left: 250px;
+  top: 20px;
+  background: #bfbfbf;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.retangle-line {
+  position: absolute;
+  width: 3px;
+  height: 297px;
+  left: 250px;
+  top: 128px;
+  background: #e5e5e5;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .right-side-button {
+    top: 58%;
+    left: 15%;
+  }
+}

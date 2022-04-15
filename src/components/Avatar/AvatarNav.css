@@ -1,0 +1,74 @@
+.avatar {
+  position: absolute;
+  left: 93.28%;
+  right: 2.53%;
+  bottom: 27.94%;
+}
+
+.avatar-text-one {
+  position: absolute;
+  width: 72px;
+  height: 18px;
+  left: -85px;
+  top: -5px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #333333;
+}
+
+.avatar-text-email {
+  position: absolute;
+  width: 163px;
+  height: 15px;
+  left: -170px;
+  top: 15px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #333333;
+}
+.avatar-number-avatar {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 68.81%;
+  right: 3.14%;
+  top: 5%;
+  background: red;
+  border-radius: 6px;
+}
+
+.avatar-number-avatar p {
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  right: 3px;
+  bottom: 0px;
+  top: -9.5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .avatar {
+    left: 25%;
+  }
+  .avatar-number-avatar {
+    left: 3.1%;
+  }
+}

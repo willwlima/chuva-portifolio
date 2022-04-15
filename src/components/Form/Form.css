@@ -1,0 +1,235 @@
+form {
+  position: relative;
+  margin-top: -250px;
+  background-color: #ffffff;
+}
+form p {
+  left: 40%;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #5c5c5c;
+  margin-top: 50px;
+}
+
+form h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ed7839;
+}
+.form-assunto {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.form-conteudo {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+form input {
+  width: 1015px;
+  height: 39px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.input-conteudo {
+  height: 113px;
+}
+.btn {
+  width: 1015px;
+  height: 31px;
+  background: #eaf1f2;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 20px;
+  margin-top: -2px;
+}
+.btn-button {
+  position: absolute;
+  width: 205.1px;
+  height: 30px;
+  margin-left: 721px;
+  border: #f1833e;
+  background: linear-gradient(180deg, #feb154 0%, #f1833e 100%);
+  border-radius: 0px 0px 4px 0px;
+}
+.btn-button:hover {
+  background: #feb154;
+}
+
+.formatBoldIcon {
+  margin-left: 28.83px;
+  margin-right: 10px !important ;
+  margin-top: 5px !important;
+}
+
+.topico-enviado {
+  position: relative;
+  background: #fff;
+  margin-top: -305px;
+}
+
+.discussoes-text-top-form {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ed7839;
+  text-align: center;
+}
+.discussoes-box-h3-enviado {
+  width: 805.25px;
+  height: 20px;
+  margin-left: 113.34px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #595959;
+}
+
+.topico-enviado-paragrafo {
+  width: 306.2px;
+  height: 20px;
+  margin-left: 363.71px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 137.5%;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #f48f44;
+}
+
+.btn-topico-enviado {
+  width: 235.15px;
+  height: 32px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: #ed7839;
+  background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+.btn-topico-enviado:hover {
+  background: #feb254;
+}
+
+.aguardando-feedback {
+  position: relative;
+  width: 1028px;
+  height: 148px;
+  bottom: 169px;
+  left: 15px;
+  margin-bottom: -180px;
+  border-radius: 4px;
+  background: #dddddda3;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+}
+
+.aguardando-feedback p {
+  width: 414.29px;
+  height: 20px;
+  margin-left: 309.17px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #707070;
+}
+.aguardando-feedback a {
+  width: 122.12px;
+  height: 19px;
+  top: 94px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+
+  color: #ed7839;
+}
+.DoneAllIcon {
+  margin-top: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #707070;
+
+  border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  form {
+    width: 360px;
+    top: 10px;
+  }
+
+  form input {
+    width: 325px;
+  }
+  .btn {
+    width: 325px;
+  }
+  .btn-button {
+    width: 100px;
+    margin-left: 136px;
+  }
+  .topico-enviado {
+    width: 360px;
+    bottom: 10px;
+  }
+  .discussoes-text-top-form {
+    font-size: 14px;
+  }
+  .topico-enviado-paragrafo {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .discussoes-box-h3-enviado {
+    width: 330px;
+    margin-left: 15px;
+  }
+  .btn-topico-enviado {
+    margin-left: 60px;
+  }
+  .aguardando-feedback p {
+    width: 200px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
+
+  .aguardando-feedback {
+    width: 289px;
+    left: 36px;
+    height: 200px;
+  }
+}
