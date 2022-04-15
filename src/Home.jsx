@@ -79,7 +79,6 @@ function Home(props) {
   }
 
   function expandirPostTopico(e) {
-    e.event.preventDefault();
     setMaisTopico(" ");
   }
 
@@ -133,6 +132,7 @@ function Home(props) {
           >
             <MenuIcon />
           </IconButton>
+
           <Toolbar className="side-center">
             <p className="text-one">
               Anais do Simpósio Latino Americano de Ciências de Alimentos
